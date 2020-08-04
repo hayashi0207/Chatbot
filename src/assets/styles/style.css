@@ -1,0 +1,38 @@
+.c-section{
+    height:100vh;
+    width:100%;
+    position: relative;
+    background-size: cover;
+    background-image: url('../images/bg_image.jpg');
+}
+.c-box{
+    background-image: url('../images/bg_image.jpg');
+    border-radius: 4px;
+    box-sizing: border-box;
+    max-height:812px;
+    min-height:480px;
+    height:100%;
+    max-width:432px;
+    min-width:400px;
+    width:100%;
+    padding:0 1rem;
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.chats-bubble{
+    background-color: rgb(46, 172, 189);
+    color:rgb(220, 220, 220);
+    border-radius: 10px;
+    padding:0 1rem;
+}
+.p-chat__row{
+    display: flex;
+    flex-direction: row;
+}
+.p-chat__reverse{
+    display: flex;
+    flex-direction: row-reverse;   
+}

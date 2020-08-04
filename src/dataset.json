@@ -1,0 +1,249 @@
+ {
+    "init": {
+        "answers": [
+            {"content": "面白いゲーム実況動画を見つけたい", "nextId": "game"},
+            {"content": "エンジニアの技術解説動画で勉強したい", "nextId": "enginner"},
+            {"content": "ビジネス・自己啓発動画で考え方を変えたい", "nextId": "bussiness"},
+            {"content": "人気Youtuberの動画が見たい", "nextId": "funny"}
+        ],
+        "question": "こんにちは！どのような用件でしょうか？"
+    },
+    "game": {
+        "answers": [
+            {"content": "ドキドキするホラー系", "nextId": "horror_game"},
+            {"content": "本格的なリアルシューティング系", "nextId": "shooting_game"},
+            {"content": "カッコイイ格闘系", "nextId": "fighting_game"},
+            {"content": "特に思いつかない", "nextId": "other_game"}
+        ],
+        "question": "お好みのゲームカテゴリを教えてください"
+    },
+    "horror_game": {
+        "answers": [
+            {"content": "明るく優しい人", "nextId": "gentle_horror_game"},
+            {"content": "関西弁で親近感のある人", "nextId": "dialect_horror_game"},
+            {"content": "のんびりした平和な人", "nextId": "carefree_horror_game"},
+            {"content": "有名芸能人", "nextId": "famous_horror_game"}
+        ],
+        "question": "「Dead by DayLight」というゲームがオススメです！お好みの実況者の特徴を教えてください"
+    },
+    "gentle_horror_game": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCz0aC9z3kXruRHULDqFRuVA"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「あっさりしょこ」さんの動画を見に行きましょう！"
+    },
+    "dialect_horror_game": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCv_jreWfYg70AcUQHrdJwNQ"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「フルコン動画」さんの動画を見に行きましょう！"
+    },
+    "carefree_horror_game": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/user/norunine"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「兄者弟者」さんの動画を見に行きましょう！"
+    },
+    "famous_horror_game": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCDn8Lqf-x0zD8hmFUg08f6w"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「狩野英孝」さんの動画を見に行きましょう！"
+    },
+    "shooting_game": {
+        "answers": [
+            {"content": "明るく面白い人", "nextId": "funny_shooting_game"},
+            {"content": "関西弁で親近感のある人", "nextId": "dialect_shooting_game"},
+            {"content": "のんびりした平和な人", "nextId": "carefree_shooting_game"},
+            {"content": "世界で最も有名なプロゲーマー", "nextId": "famous_shooting_game"}
+        ],
+        "question": "「Rainbow Six Siege」というゲームがオススメです！お好みの実況者の特徴を教えてください"
+    },
+    "funny_shooting_game": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCN4BEd9ynmZ51ItK3wD4iGA"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「メルトン」さんの動画を見に行きましょう！"
+    },
+    "dialect_shooting_game": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCNicQVuAQJYlCQKEw1TKn1A"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「けんき」さんの動画を見に行きましょう！"
+    },
+    "carefree_shooting_game": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/user/norunine"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「兄者弟者」さんの動画を見に行きましょう！"
+    },
+    "famous_shooting_game": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCIEbkDg4ExtW4O-ugmHoKKw"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「pengu」さんの動画を見に行きましょう！"
+    },
+    "fighting_game": {
+        "answers": [
+            {"content": "面白い人", "nextId": "funny_fighting_game"},
+            {"content": "親近感のある人", "nextId": "frendly_fighting_game"},
+            {"content": "世界で闘うプロゲーマー", "nextId": "progamer_fighting_game"},
+            {"content": "有名芸能人", "nextId": "famous_fighting_game"}
+        ],
+        "question": "「大乱闘スマッシュブラザーズ」というゲームがオススメです！お好みの実況者の特徴を教えてください"
+    },
+    "funny_fighting_game": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCFOsYGDAw16cr57cCqdJdVQ"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「MKR」さんの動画を見に行きましょう！"
+    },
+    "frendly_fighting_game": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCgXyMl3Y2kRHkK08F_Ct8Pg"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「はじめしゃちょー2」さんの動画を見に行きましょう！"
+    },
+    "progamer_fighting_game": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCfoTAd662mucYxhZo7YHR9A"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「ザクレイ」さんの動画を見に行きましょう！"
+    },
+    "famous_fighting_game": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCIR2mQ77wHrLMreV45nYhgw"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「かまいたち」さんの動画を見に行きましょう！"
+    },
+    "other_game": {
+        "answers": [
+            {"content": "公式動画チャンネルでゲームを探す。", "nextId": "https://www.youtube.com/watch?v=Jj4sfry-wYw"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「Nintendo公式動画」で面白いゲームを探しましょう！"
+    },
+    "enginner": {
+        "answers": [
+            {"content": "WebデザインやWebフロントの技術を学びたい", "nextId": "front_enginner"},
+            {"content": "最近登場した言語(Flutter)を学びたい", "nextId": "flutter_enginner"},
+            {"content": "クラウドサービスについて学びたい", "nextId": "cloud_enginner"},
+            {"content": "Web全般を学びたい", "nextId": "web_enginner"}
+        ],
+        "question": "学びたい技術・分野を教えてください"
+    },
+    "front_enginner": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCti6dG0zSAetLGGYcgNML4Q"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「しまぶーのIT大学」さんの動画でフロントエンドの技術を身に付けましょう！"
+    },
+    "flutter_enginner": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCReuARgZI-BFjioA8KBpjsw"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「KBOY」さんの動画でFultterについて学びましょう！"
+    },
+    "cloud_enginner": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCirsB9lWx1Vao8jmbMK_nQg"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「くろかわこうへい」さんの動画でクラウドサービスの知識を身に付けましょう！"
+    },
+    "web_enginner": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCHxqQ8bUg5F2GW79D_DvSjQ"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「おさない」さんの動画でWebの知識を身に付けましょう！"
+    },
+    "bussiness": {
+        "answers": [
+            {"content": "起業家・経営者", "nextId": "entrepreneur_bussiness"},
+            {"content": "会計士", "nextId": "accountant_bussiness"},
+            {"content": "投資家", "nextId": "investor_bussiness"},
+            {"content": "優秀な会社員", "nextId": "employee_bussiness"}
+        ],
+        "question": "目指す・話を聞きたい人物像を教えてください"
+    },
+    "entrepreneur_bussiness": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCSwW7Cgtn1Bq74YGiIY2UFg"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「竹花貴騎」さんの動画でビジネススキルを向上させましょう！"
+    },
+    "accountant_bussiness": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCTPIe7w6MPUuZYgLdSerSnA"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「小山あきひろ」さんの動画で会計士について理解を深めましょう！"
+    },
+    "investor_bussiness": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCTPIe7w6MPUuZYgLdSerSnA"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「与沢翼」さんの動画でデキる投資家の思考を身に付けましょう！"
+    },
+    "employee_bussiness": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UC7I3QTra4_kC4TSu8f7rHkA"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「マコなり社長」さんの動画でビジネススキルを向上させましょう！"
+    },
+    "funny": {
+        "answers": [
+            {"content": "老若男女楽しめる系", "nextId": "all_funny"},
+            {"content": "お金持ち系", "nextId": "rich_funny"},
+            {"content": "大食い系", "nextId": "gluttony_funny"},
+            {"content": "可愛い動物系", "nextId": "cute_funny"}
+        ],
+        "question": "見たいYoutuberのジャンルを教えてください"
+    },
+    "all_funny": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/user/0214mex"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「はじめしゃちょー」さんの動画で楽しみましょう！"
+    },
+    "rich_funny": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCaminwG9MTO4sLYeC3s6udA"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「ヒカル」さんの動画で楽しみましょう！"
+    },
+    "gluttony_funny": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UC1-4AnMxkLXLNL3-7UJ4KTQ"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「谷やん」さんの動画で楽しみましょう！"
+    },
+    "cute_funny": {
+        "answers": [
+            {"content": "動画を見る", "nextId": "https://www.youtube.com/channel/UCIDOHrFd4wl8P6pPyPKlG2A"},
+            {"content": "最初の質問に戻る", "nextId": "init"}
+        ],
+        "question": "「タイピー日記」さんの動画で楽しみましょう！"
+    }
+}
